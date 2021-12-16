@@ -1,0 +1,89 @@
+.tabela{
+    margin-left: 50rem;
+    margin-right: 50rem;
+}
+
+.caixas{
+    margin-right: 20rem;
+}
+
+.caixa{
+    width: 5rem;
+    height: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: .4rem;
+}
+
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+form input.limpar {
+    width: 110px;
+    height: 50px;
+
+    background-color: #fefefe;
+
+    border: none;
+    box-shadow: 2px 2px 2px;
+
+    font-weight: bold;
+
+    border-radius: 30px;
+    margin-left: 3rem;
+
+}
+
+form input.oper {
+    width: 110px;
+    height: 50px;
+
+    background-color: #7c4e75;
+    border: none;
+    box-shadow: 2px 2px 2px #000000;
+
+    color: #fefefe;
+
+    font-weight: bold;
+
+    border-radius: 30px;
+
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+input.oper:hover{
+
+    color: #000000;
+
+    background: #fefefe;
+
+    transition: 1s;
+    
+    cursor: pointer;
+}
+
+input.limpar:hover{
+
+    color: #fefefe;
+    background: red;
+    transition: 1s;
+    cursor: pointer;
+}
+
+form label.num {
+    color: rgb(0,0,255);
+
+    font-weight: bold;
+}
+
+form label.res {
+    color: rgb(255,0,0);
+    font-weight: bold;
+}
+
+.ultima{
+    margin-right: 2rem;
+}
